@@ -30,4 +30,4 @@ npm run dev-client
 ```
 
 Fiddle with TRPC from \client\client.ts and \server\server.ts
-Types are in \server\aprouter.ts
+Types are in \server\approuter.ts
