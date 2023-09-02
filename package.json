@@ -6,7 +6,8 @@
   "scripts": {
     "dev-server": "tsc && node dist/server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-client": "node dist/client/client.js"
+    "dev-client": "node dist/client/client.js",
+    "ci-build": "tsc"
   },
   "author": "",
   "license": "ISC",

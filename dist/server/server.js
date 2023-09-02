@@ -39,3 +39,4 @@ app.use('/trpc', trpcExpress.createExpressMiddleware({
     createContext,
 }));
 app.listen(4000);
+//# sourceMappingURL=server.js.map

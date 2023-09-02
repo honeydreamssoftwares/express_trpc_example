@@ -11,11 +11,6 @@ Install TRPC Express Demo
   npm install
 ```
     
-## Support
-
-For support, Contact Ajeet @ https://www.freelancer.com/u/honeydreams.
-
-
 
 ## Usage/Examples
 
@@ -31,3 +26,9 @@ npm run dev-client
 
 Fiddle with TRPC from \client\client.ts and \server\server.ts
 Types are in \server\approuter.ts
+
+## Support
+
+For support, Contact Ajeet @ https://www.freelancer.com/u/honeydreams.
+
+

@@ -12,7 +12,7 @@ const client = createTRPCProxyClient<AppRouter>({
 });
 
 async function main() {
-  const bilbo = await client.getUser777.query("id_bilbo");
+  const bilbo = await client.getUser777.query("abc678")
   console.log(bilbo);
 }
 

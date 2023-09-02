@@ -14,9 +14,10 @@ const server_1 = require("@trpc/server");
 const zod_1 = require("zod");
 exports.t = server_1.initTRPC.create();
 exports.appRouter = exports.t.router({
-    getUser: exports.t.procedure.input(zod_1.z.string()).query((opts) => {
+    getUser777: exports.t.procedure.input(zod_1.z.string()).query((opts) => {
         opts.input; // string
-        return { id: opts.input, name: 'Bilbo' };
+        console.log("OPTS", opts);
+        return { id: opts.input, name: 'Bilbo 66' };
     }),
     createUser: exports.t.procedure
         .input(zod_1.z.object({ name: zod_1.z.string().min(5) }))
@@ -25,3 +26,4 @@ exports.appRouter = exports.t.router({
         return "ok";
     })),
 });
+//# sourceMappingURL=approuter.js.map

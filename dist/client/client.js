@@ -19,8 +19,9 @@ const client = (0, client_1.createTRPCProxyClient)({
 });
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
-        const bilbo = yield client.getUser.query("id_bilbo");
+        const bilbo = yield client.getUser777.query("abc678");
         console.log(bilbo);
     });
 }
 main();
+//# sourceMappingURL=client.js.map

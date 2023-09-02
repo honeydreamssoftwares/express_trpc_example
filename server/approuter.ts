@@ -6,7 +6,8 @@ export const t = initTRPC.create();
 export const appRouter = t.router({
   getUser777: t.procedure.input(z.string()).query((opts) => {
     opts.input; // string
-    return { id: opts.input, name: 'Bilbo' };
+    console.log("OPTS",opts);
+    return { id: opts.input, name: 'Bilbo 66' };
   }),
   createUser: t.procedure
     .input(z.object({ name: z.string().min(5) }))
